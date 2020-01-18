@@ -1,0 +1,5 @@
+<p>{{time}}</p>
+<button (click)="startTimer()">Start Timer</button>
+<ul *ngFor="let item of demoData">
+  <li>{{"Id: " + item.id + ";  Name: " + item.name + ";  Username: " + item.username}}</li>
+</ul>
